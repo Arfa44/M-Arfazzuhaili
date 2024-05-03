@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+            <!--shape/bentuk
+                kita harus menentukan bentuk area yang dapat diklik, dan Anda dapat memilih salah satu dari nilai berikut:
+                rect- mendefinisikan wilayah persegi panjang
+                circle- mendefinisikan wilayah melingkar
+                poly- mendefinisikan wilayah poligonal, terdapat beberapa titik koordinat, yang menghasilkan bentuk yang dibentuk dengan garis lurus (poligon)
+                    contoh = 
+                    Kita harus mencari koordinat x dan y untuk semua sisi croissant
+                    Koordinatnya berpasangan, satu untuk sumbu x dan satu lagi untuk sumbu y
+                    <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm">
+                default- mendefinisikan seluruh wilayah-->
+
+
+<!--Ringkasan Bab
+    Gunakan elemen HTML <map>untuk mendefinisikan peta gambar
+    Gunakan elemen HTML <area>untuk menentukan area yang dapat diklik di peta gambar
+    Gunakan atribut HTML usemapelemen <img>untuk menunjuk ke peta gambar-->
+
+</body>
+</html>
+

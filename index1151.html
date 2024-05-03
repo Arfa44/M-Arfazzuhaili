@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge Live Code - HTML & CSS</title>
+  <style>
+      table {
+        border-collapse: collapse;
+        background-color: cyan;
+        width: 70%;
+      }
+      td, th {
+        border: 1px double #ffffff;
+
+        padding: 8px;
+        outline-offset: 3px;
+        outline-color: black;
+      } 
+     th{
+       text-align: center;
+       color: chocolate;
+     }
+    .icon{
+      width:30px;
+      height: auto;
+    }
+   tr:nth-child(even){
+     text-align: left;
+   }
+    tr:nth-child(odd){
+      text-align: right;
+    }
+  </style>
+</head>
+  <body>
+    <table>
+      <tr>
+      <th> Materi </th>
+       <th> Sub Materi </th>
+       <th> Icon </th>
+     </tr> 
+      <tr>
+        <td >Materi 1</td>
+        <td> HTML </td>
+        <td><img src="https://www.techfor.id/wp-content/uploads/2019/12/html.png" class="icon"></td>
+      </tr>
+      <tr>
+        <td >Materi 2</td>
+        <td> CSS </td>
+        <td>
+    <img src=      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" class="icon"> </td>
+      </tr>
+      <tr>
+        <td ">Materi 3</td>
+        <td> Javascript  </td>
+        <td>
+<img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" class="icon"></td>
+      </tr>
+    </table>
+ 
+<p>Keterangan</p>
+    <ol>
+      <li>Buatlah selector berjenis class dengan nama <b>.icon</b> untuk me-resize gambar pada kolom Icon</li>
+      <li>Warna background adalah <b>cyan</b></li>
+      <li>warna header tabel adalah <b>choholate</b></li>
+      <li>Tabel header rata tengah</li>
+      <li>Baris ganjil rata kiri, baris genap rata kanan kecuali pada kolom Icon, gunakan fitur <b>nth-child</b></li>
+      
+    </ol>
+</body>
+</html>

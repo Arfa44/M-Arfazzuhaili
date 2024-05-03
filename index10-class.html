@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .city {
+          background-color: red;
+          color: white;
+          border: 2px solid blue;
+          margin: 20px;
+          padding: 20px;
+        }
+        </style>
+</head>
+<body>
+    <div class="city">
+        <h2>London</h2>
+        <p>London is the capital of England.</p>
+        </div> 
+        
+        <div class="city">
+        <h2>Paris</h2>
+        <p>Paris is the capital of France.</p>
+        </div>
+        
+        <div class="city">
+        <h2>Tokyo</h2>
+        <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+        <!--Atribut ini class sering digunakan untuk menunjuk ke nama kelas dalam style sheet. 
+            Itu juga dapat digunakan oleh JavaScript untuk mengakses dan memanipulasi elemen dengan nama kelas tertentu.
+            Pada contoh berikut kita memiliki tiga <div>elemen dengan class atribut dengan nilai "kota". 
+            Ketiga <div> elemen tersebut akan diberi gaya yang sama sesuai dengan .city definisi gaya di bagian head
+                
+            Atribut class dapat digunakan pada elemen HTML apa pun .
+            note= Nama kelas peka huruf besar-kecil!    -->
+
+        <!--sintaks Untuk Kelas/class
+            Untuk membuat kelas; tulis karakter titik (.), diikuti dengan nama kelas. 
+            Lalu, definisikan properti CSS di dalam kurung kurawal {}
+        
+            Untuk mendefinisikan beberapa kelas, pisahkan nama kelas dengan spasi, misalnya <div class="city main">. 
+            Elemen akan ditata sesuai dengan semua kelas yang ditentukan.
+
+            Elemen Berbeda Dapat Berbagi Kelas yang Sama
+            Elemen HTML yang berbeda dapat menunjuk ke nama kelas yang sama.
+            Dalam contoh berikut, keduanya <h2> menunjuk <p> ke kelas "kota" dan akan berbagi gaya yang sama
+                <h2 class="city">Paris</h2>
+                <p class="city">Paris is the capital of France</p>
+            -->
+
+    <!--Ringkasan Bab Class
+        Atribut HTML classmenentukan satu atau lebih nama kelas untuk suatu elemen
+        Kelas digunakan oleh CSS dan JavaScript untuk memilih dan mengakses elemen tertentu
+        Atribut ini classdapat digunakan pada elemen HTML apa pun
+        Nama kelas peka huruf besar-kecil
+        Elemen HTML yang berbeda dapat menunjuk ke nama kelas yang sama
+        JavaScript dapat mengakses elemen dengan nama kelas tertentu dengan getElementsByClassName() metode tersebut-->
+</body>
+</html>

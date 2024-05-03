@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!--Link/tautan HTML adalah hyperlink.
+    Anda dapat mengeklik tautan dan melompat ke dokumen lain.
+    Sintaks. Tag <a> mendefinisikan hyperlink, href atribut, yang menunjukkan tujuan tautan.
+    <a href="url">link text</a>  -->
+
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a><br><br>
+        <!--Contoh ini menunjukkan cara membuat tautan ke W3Schools.com:-->
+
+<a href="https:sakuranovel.id">SakuraNovel</a><br><br>
+        <!--link untuk ke web sakuranovel-->
+
+    <!--Secara default, tautan akan muncul sebagai berikut di semua browser:
+        Tautan yang belum dikunjungi digarisbawahi dan berwarna biru
+        Tautan yang dikunjungi digarisbawahi dan berwarna ungu
+        Tautan aktif digarisbawahi dan berwarna merah-->
+    <!--Link html - Atribut target
+        Atribut targetmenentukan tempat untuk membuka dokumen tertaut.
+        Atribut targetdapat memiliki salah satu dari nilai berikut:
+            _self- Bawaan. Membuka dokumen di jendela/tab yang sama dengan yang diklik
+            _blank- Membuka dokumen di jendela atau tab baru
+            _parent- Membuka dokumen di bingkai induk
+            _top- Membuka dokumen di seluruh isi jendela-->
+
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+        <!--contoh menggunakan target="_blank" untuk membuka dokumen tertaut di jendela atau tab browser baru-->
+
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+            <!--URL absolut (alamat web lengkap) pada href atributnya.
+                Tautan lokal (tautan ke halaman dalam situs web yang sama) ditentukan dengan 
+                URL relatif (tanpa bagian "https://www"):-->
+
+<a href="https://www.w3schools.com/html/default.asp">
+<img src="https://content.instructables.com/ORIG/FCB/B741/GXO0U8MU/FCBB741GXO0U8MU.jpg?frame=1" alt="HTML tutorial" style="width:60px;height:55px;">
+</a><br>
+            <!--menggunakan gambar sebagai link, cukup masukkan <img> tag ke dalam tag <a>-->
+                
+
+<a href="mailto:someone@example.com">Kirim email</a><hr>
+            <!--Gunakan mailto:di dalam hrefatribut untuk membuat tautan yang membuka program email pengguna (agar mereka dapat mengirim email baru)-->
+
+
+<h2>Button as a Links</h2>
+<p>Click Tombol untuk pergi ke HTML tutorial.</p>
+<button onclick="window.location.href='https://www.w3schools.com/html/'">HTML Tutorial</button>
+<hr>
+            <!--menggunakan tombol HTML sebagai tautan, Anda harus menambahkan beberapa kode JavaScript.
+                JavaScript memungkinkan Anda menentukan apa yang terjadi pada peristiwa tertentu, seperti mengklik tombol:-->
+
+<h2>Link Titles</h2>
+<p>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a> <hr>               
+                <!--Atribut title menentukan informasi tambahan tentang suatu elemen-->
+
+
+<!--Ringkasan Bab Link
+    Gunakan <a> elemen untuk menentukan tautan
+    Gunakan href atribut untuk menentukan alamat tautan
+    Gunakan target atribut untuk menentukan tempat membuka dokumen tertaut
+    Gunakan <img> elemen (di dalam <a>) untuk menggunakan gambar sebagai tautan
+    Gunakan mailto: skema di dalam hrefatribut untuk membuat tautan yang membuka program email pengguna-->
+
+
+</body>
+</html>       

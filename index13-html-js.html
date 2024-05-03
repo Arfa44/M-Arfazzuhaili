@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Use JavaScript to Change Text</h2>
+    <p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
+
+    <p id="demo"></p>
+
+    <script>
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script> 
+
+    <!--Tag Skrip HTML
+        <script> Mendefinisikan skrip sisi klien
+        <noscript> Mendefinisikan konten alternatif untuk pengguna yang tidak mendukung skrip sisi klien
+            
+        Tag HTML <script>digunakan untuk mendefinisikan skrip sisi klien (JavaScript).
+        Elemen tersebut <script>berisi pernyataan skrip, atau menunjuk ke file skrip eksternal melalui srcatribut.
+        Kegunaan umum JavaScript adalah manipulasi gambar, validasi formulir, dan perubahan konten dinamis.
+        Untuk memilih elemen HTML, JavaScript paling sering menggunakan document.getElementById()metode ini
+
+        Contoh
+        JavaScript dapat mengubah gaya:
+            document.getElementById("demo").style.fontSize = "25px";
+            document.getElementById("demo").style.color = "red";
+            document.getElementById("demo").style.backgroundColor = "yellow";
+
+        Contoh
+        JavaScript dapat mengubah atribut:
+            document.getElementById("image").src = "picture.gif";
+        -->
+</body>
+</html>

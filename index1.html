@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:blue;">This is a heading</h1>
+<p style="background-color:red;">This is a paragraph.</p>
+    <!--menambahkan warna latar belakang untuk dua elemen yang berbeda-->
+
+
+<h1 style="color:blue;">This is a heading Warnanya Biru</h1>
+<p style="color:red;">This is a paragraph berwarna Merah.</p>
+    <!--menambahkan warna pada teks untuk elemen html dengan atribut style-->
+
+
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>  
+    <!--css font-family mendefinisikan font yang  akan digunakan untuk elemen di html-->
+
+
+<h1 style="font-size:200%;">This is a heading</h1>
+<p style="font-size:100%;">This is a paragraph.</p>
+    <!--css fonr-size digunakan untuk mengatur ukuran text untuk elemen html-->
+
+
+<h1 style="text-align:center;">Centered Heading (Tengah)</h1>
+<p style="text-align:left;">Kiri paragraph.</p>
+<p style="text-align:right;">Kanan paragraph.</p>
+    <!--css text-align mendefinisikan perataan text horizontal untuk elemen html
+        center = rata tengah
+        left = rata kiri
+        right = rata kanan -->
+
+
+    <!--elemen pemformatan html   
+        <b>- Teks tebal
+        <strong>- Teks penting
+        <i>- Teks miring
+        <em>- Teks yang ditekankan
+        <mark>- Teks yang ditandai
+        <small>- Teks lebih kecil
+        <del>- Teks yang dihapus
+        <ins>- Teks yang disisipkan
+        <sub>- Teks subskrip
+        <sup>- Teks superskrip -->
+
+<b>This text is bold / TEBAL</b>
+        <!--elemen <b> mendefinisikan teks tebal, tanpa arti penting -->
+        <br><br> <!-- elemen <br> untuk membuat baris baru-->
+
+<strong>This text is important! SANGAT PENTING !!!</strong>
+        <!--elemen <strong> mendefinisikan teks dengan sangat penting-->
+            <br><br>
+
+<i>This text is italic / MIRING</i>
+        <!--elemen <i> mendefinisikan bagian teks dalam suara/suasana hati alternatif.
+            biasanya ditampilkan dalam huruf miring 
+            biasanya digunakan untuk menunjukkan istilah teknis,frasa bahasa lain,pemikiran,dll-->
+            <br><br>
+
+<em>This text is emphasized</em>
+        <!--mendefinisikan teks yang ditekankan, ditampilkan dalam huruf miring-->
+            <br><br>
+
+<small>This is some smaller text.</small>
+        <!--elemen <small> mendefinisikan teks yang lebih kecil-->
+            <br>
+
+<p>Do not <mark>forget</mark> to buy <mark>milk</mark> today.</p>         
+        <!--elemen <mark> mendefinisikan teks yang harus ditandai/disorot-->
+
+<p>My favorite color is <del>blue</del> red and the flower is <del>pink</del> merah.</p>
+        <!--elemen <del> mendefinisikan teks yang telah dihapus dari dokumen.
+            browser akan membuat garis pada teks yang dihapus-->
+
+<p>This is <sub>subscripted</sub> text.</p>
+        <!--elemen <sub> mendefinisikan teks subskrip
+            Teks subskrip muncul setengah karakter di bawah garis normal, 
+            dan terkadang ditampilkan dalam font yang lebih kecil. 
+            Teks subskrip dapat digunakan untuk rumus kimia, seperti H2O:-->
+
+
+<p>This is <sup>superscripted</sup> text.</p>
+            <!--elemen <sup> mendefinisikan elemen superskrip.
+                Teks superskrip muncul setengah karakter di atas garis normal, 
+                dan terkadang ditampilkan dalam font yang lebih kecil. 
+                Teks superskrip dapat digunakan untuk catatan kaki, seperti WWW [1]-->
+
+
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 60 years, WWF has worked to help people and nature thrive. 
+    As the world's leading conservation organization, WWF works in nearly 100 countries. 
+    At every level, we collaborate with people around the world to develop and deliver 
+    innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+            <!--elemen <blackquote> mendefinisikan bagian yang dikutip dari sumber lain-->
+
+
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+            <!--tag html <q> mendefinisikan kutipan singkat
+                browser biiasanya menyisipkan tanda kutip disekitar kutipan-->
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<p>Bank <abbr title="Bank Rakyat Indonesia">BRI</abbr> adalah salah satu bank di INDONESIA</p>
+            <!--tag <abbr> mendefinisikan singkatan/akronim, misal = HTML, OPEC, UNESCO.
+                saran = gunakan atribut judul global untuk menampilkan deHskripsi singkatan/akronim-->
+<br>
+
+<address>
+    Written by John Doe.<br>
+    Visit us at:<br>
+    Example.com<br>
+    Box 564, Disneyland<br>
+    USA
+</address>
+            <!--tag <address> mendefinisikan informasi kontak penulis/pemilik dokumen/artikel
+                Informasi kontak dapat berupa alamat email, URL, alamat fisik, nomor telepon, alamat media sosial, dll.
+                Teks dalam <address>elemen biasanya ditampilkan dalam huruf miring, 
+                dan browser akan selalu menambahkan jeda baris sebelum dan sesudah <address>elemen.-->
+
+
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+            <!--tag <cite> mendefinisikan judul suatu karya kreatif (misalnya buku, puisi, lagu, film, lukisan, patung, dll.).
+                Catatan : Nama seseorang bukanlah judul suatu karya.
+                Teks dalam <cite>elemen biasanya ditampilkan dalam huruf miring .-->
+
+        
+<bdo dir="rtl">This text will be written from right to left</bdo><br>
+<bdo dir="ltr">This text will be written from right to left</bdo>
+            <!--tag <bdo> digunakan untuk mengganti arah teks saat ini
+                rtl (right to left) = dari kanan ke kiri
+                ltr (left to right) = dari kiri ke kanan-->
+
+<!-- Write your comments here -->
+            <!--tag komentar di html terdapat tanda seru(!) diawal,tapi tidak ti akhir-->
+
+
+
+<!-- This is a comment -->
+<p>This is a paragraph.</p>
+            <!-- tag komentar dapat digunakan untuk menempatkan pemberitahuan dan pengingat dikode html -->
+
+
+<p>This is a paragraph dari sebuah novel.</p>
+<!-- <p>This is another paragraph </p> -->
+<p>This is a paragraph too yang selanjutnya.</p>
+            <!--Komentar dapat digunakan untuk menyembunyikan konten.
+                Ini dapat berguna jika Anda menyembunyikan konten untuk sementara-->
+
+<p>This is a paragraph awalan.</p>
+        <!--<p>Look at this cool image:</p>
+            <img border="0" src="pic_trulli.jpg" alt="Trulli">-->
+<p>This is a paragraph too.</p>
+            <!--dapat menyembunyikan lebih dari satu baris. 
+                Segala sesuatu di antara "(<!- dan ->" akan disembunyikan dari layar.-->
+
+<p>This <!-- great text --> is a paragraph cerita.</p>
+            <!--Komentar dapat digunakan untuk menyembunyikan bagian tengah kode html-->
+
+
+<!--warna HTML -->
+<h1 style="background-color:Tomato;">Tomato</h1>
+<h1 style="background-color:Orange;">Orange</h1>
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style="background-color:Gray;">Gray</h1>
+<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style="background-color:Violet;">Violet</h1>
+<h1 style="background-color:LightGray;">LightGray</h1>
+            <!--di html, warna dapat ditentukan dengan menggunakan nama warna
+                html mendukung 140 warna standar-->
+
+
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">Lorem ipsum...</p>
+            <!--warna latar belakang/bacground untuk elemen dapat diatur dengan atribut style-->
+
+
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+            <!--warna teks di html dapat diatur dengan menambahkan atribut style=color-->
+
+
+<h1 style="border:2px solid Tomato;">Hello World only</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World i'm back</h1>
+<h1 style="border:2px solid Violet;">Hello World again</h1>
+            <!--warna untuk border teks dapat disesuaikan
+                2px menunjukkan ketebalan border-->
+
+
+<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+            <!--warna dapat ditentukan sebagai nilai RGB (red,green,blue)
+                Setiap parameter (merah, hijau, dan biru) menentukan intensitas warna dengan nilai antara 0 dan 255.
+                Artinya ada 256 x 256 x 256 = 16777216 kemungkinan warna!
+                Nuansa abu-abu sering kali ditentukan menggunakan nilai yang sama untuk ketiga parameter
+                misal = rgb(60,60,60); rgb(100,100,100)-->
+
+<h1 style="background-color:#ff6347;">...</h1>
+            <!--warna dapat ditentukan menggunakan nilai heksadesimal dalam bentuk:#rrggbb 
+                Dimana rr (merah), gg (hijau) dan bb (biru) merupakan nilai heksadesimal antara 00 dan ff (sama dengan desimal 0-255).
+                Misalnya, #ff0000 ditampilkan dengan warna merah, 
+                karena merah disetel ke nilai tertingginya (ff), dan dua lainnya (hijau dan biru) disetel ke 00.
+                Nuansa abu-abu sering kali ditentukan menggunakan nilai yang sama untuk ketiga parameter, misal = #686868 -->
+                
+<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+            <!--Dalam HTML, warna juga dapat ditentukan menggunakan nilai RGB, 
+                nilai HEX, nilai HSL, nilai RGBA, dan nilai HSLA.
+                HSL adalah singkatan dari hue, saturation, dan lightness.
+                Hue adalah derajat pada roda warna dari 0 hingga 360. 0 berwarna merah, 120 berwarna hijau, dan 240 berwarna biru.
+                Saturation adalah nilai persentase. 0% berarti warna abu-abu, dan 100% berarti warna penuh.
+                Lightness juga merupakan nilai persentase. 0% berwarna hitam, dan 100% berwarna putih.-->
+
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+            <!--Dua elemen <div> berikut memiliki warna latar belakangnya yang diatur dengan nilai 
+                RGBA dan HSLA, yang menambahkan saluran Alpha ke warnanya (di sini kita memiliki transparansi 50%)
+                RGBA merupakan perpanjangan dari nilai warna RGB dengan saluran Alpha - yang menentukan opasitas suatu warna.
+                Nilai warna RGBA ditentukan dengan: rgba( red, green , blue, alfa )
+                warna HSLA merupakan perpanjangan dari nilai warna HSL, dengan saluran Alpha - yang menentukan opasitas suatu warna.
+                Nilai warna HSLA ditentukan dengan: hsla( hue, saturation , lightness, alfa )
+                Parameter alpha adalah angka antara 0,0 (sepenuhnya transparan) dan 1,0 (tidak transparan sama sekali)-->
+
+
+<!--GAYA HTML CSS
+    CSS adalah singkatan dari Cascading Style Sheet.
+    CSS dapat mengontrol tata letak beberapa halaman web sekaligus.
+    Dengan CSS, Anda dapat mengontrol warna, font, ukuran teks, jarak antar elemen, 
+    bagaimana elemen diposisikan dan ditata, gambar latar belakang atau warna latar belakang 
+    apa yang akan digunakan, tampilan berbeda untuk perangkat dan ukuran layar berbeda-->    
+
+
+<h1 style="color:blue;">A Blue Heading</h1>
+<p style="color:red;">A red paragraph.</p>
+            <!--CSS sebaris digunakan untuk menerapkan gaya unik ke satu elemen HTML.
+                CSS sebaris menggunakan styleatribut elemen HTML.
+                Contoh berikut mengatur warna teks elemen <h1>menjadi biru, dan warna teks elemen <p>menjadi merah-->
+
+
+</body>
+</html>
